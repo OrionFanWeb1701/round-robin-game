@@ -26,7 +26,7 @@ btns.forEach(btn => {
 			arrayAreaO.push(handleArea)
 		} else {
 			btn.classList.add('active2')
-			btn.innerHTML = 'X'
+			btn.innerHTML = '+'
 			arrayAreaX.push(handleArea)
 		}
 
