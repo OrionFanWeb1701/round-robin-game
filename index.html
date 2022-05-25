@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Łukasz Romanek">
+    <title>Gra w kółko i krzyżyk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <script src="https://kit.fontawesome.com/b29ba5ca35.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__title">Gra w kółko i krzyżyk</h1>
+    </header>
+
+    <main class="wrapper">
+        <div class="buttons-box">
+            <button class="btn" data-area="A1"></button>
+            <button class="btn" data-area="A2"></button>
+            <button class="btn" data-area="A3"></button>
+            <button class="btn" data-area="B1"></button>
+            <button class="btn" data-area="B2"></button>
+            <button class="btn" data-area="B3"></button>
+            <button class="btn" data-area="C1"></button>
+            <button class="btn" data-area="C2"></button>
+            <button class="btn" data-area="C3"></button>
+        </div>
+        <div class="score-box">
+            <p class="score-box__text"></p>
+        </div>
+        <button class="repeat-btn">Zagraj ponownie</button>
+    </main>
+
+    <footer class="footer">
+        <p class="copyright">&copy; 2022 Łukasz Romanek</p>
+        <a href="https://github.com/OrionFanWeb1701/round-robin-game" target="_blank" class="git-link"><i class="fa-brands fa-github"></i></a>
+    </footer>
+
+    <script src="./dist/js/script.min.js"></script>
+</body>
+
+</html>
