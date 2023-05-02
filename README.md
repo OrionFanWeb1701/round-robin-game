@@ -1,5 +1,5 @@
 
-<b>Interactive round-robin game</b>
+# Interactive round-robin game
 
 :heavy_plus_sign::video_game::o:
 
